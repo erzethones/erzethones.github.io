@@ -1,0 +1,128 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1, h2 , h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#first-section, #second-section, #third-section {
+  margin-bottom: 40px;
+}
+
+.section-title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#portfolio {
+  width: 80%;
+  /* background-color: burlywood; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+#first-section {
+  width: 100%;
+  display: flex;
+}
+
+#photo-profile {
+  /* background-color: aquamarine; */
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+}
+
+#photo-profile img {
+  height: 300px;
+  border: 5px solid #fff;
+  margin-left: auto ;
+  /* margin-right: auto; */
+}
+
+#biodata {
+  /* background-color: blanchedalmond; */
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70%;
+}
+
+#biodata section{
+  display: inline-block;
+  width: 100%;
+}
+
+.biodata-detail{
+  width: 100%;
+}
+
+.biodata-detail p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.biodata-title{
+  font-weight: bold;
+  text-align: left;
+  width: 100px;
+}
+
+.biodata-value{
+  font-weight: normal;
+  text-align: left;
+  width: 75%;
+}
+
+#second-section{
+
+}
+
+.professional-experience{
+  /* background-color: beige; */
+  margin-bottom: 40px;
+}
+
+.professional-experience-title{
+  margin-bottom: 5px;
+  margin-top:5px;
+}
+
+.professional-experience-year{
+  color: grey;
+  font-style: italic;
+  margin-bottom: 5px;
+  margin-top:5px;
+}
+
+.portfolio-project-title {
+  margin-bottom: -10px;
+}
+
+.portfolio-project-title em {
+  color: gray;
+  font-style: italic;
+}
+
+
+#footer {
+  /* width: 100%; */
+  font-size: 14px;
+}
+
+#footer-left{
+  text-align: center;
+}
+
+#footer-right{
+  text-align: center;
+}
+
+
